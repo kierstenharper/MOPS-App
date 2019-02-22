@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.Views.BenefitsPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="Gray">
+            <StackLayout Orientation="Vertical" Spacing="10" Padding="10" VerticalOptions="Start">
+                <Entry x:Name="txtSearch" Margin="0,0,0,10" BackgroundColor="White" Placeholder="Search" FontSize="Small" TextColor="Gray" Keyboard="Default"></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Search" BackgroundColor="#a41f35" FontAttributes="Bold" TextColor="White" Clicked="LoginButton_Clicked" HeightRequest="50"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
