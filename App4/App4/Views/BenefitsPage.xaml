@@ -3,12 +3,40 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App4.Views.BenefitsPage">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" BackgroundColor="Gray">
-            <StackLayout Orientation="Vertical" Spacing="10" Padding="10" VerticalOptions="Start">
-                <Entry x:Name="txtSearch" Margin="0,0,0,10" BackgroundColor="White" Placeholder="Search" FontSize="Small" TextColor="Gray" Keyboard="Default"></Entry>
-            </StackLayout>
+        <StackLayout BackgroundColor="Gray">
             <StackLayout Orientation="Horizontal">
-                <Button Text="Search" BackgroundColor="#a41f35" FontAttributes="Bold" TextColor="White" Clicked="LoginButton_Clicked" HeightRequest="50"/>
+                <Image Source="mlogo.png" Aspect="Fill"/>
+                <Entry x:Name="Search" Text="{Binding Search}" Placeholder="Search"
+                           PlaceholderColor="Black" HeightRequest="50" WidthRequest="300"
+                           TextColor="Black" HorizontalOptions="Center"/>
+                <BoxView Color="Black" HorizontalOptions="EndAndExpand" />
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="benefits" FontSize="25" HorizontalTextAlignment="Center"/>
+                <BoxView Color="White"
+                    WidthRequest="100"
+                    HeightRequest="100"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="0,35,0,0"/>
+                <Label Text="Downloads" FontSize="20" HorizontalTextAlignment="Center"/>
+
+                <BoxView Color="White"
+                    WidthRequest="100"
+                    HeightRequest="100"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="0,35,0,0"/>
+                <Label Text="Membership Kit" FontSize="20" HorizontalTextAlignment="Center"/>
+
+                <BoxView Color="White"
+                    WidthRequest="100"
+                    HeightRequest="100"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="0,35,0,0"/>
+                <Label Text="Discounts" FontSize="20" HorizontalTextAlignment="Center"/>
+
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
