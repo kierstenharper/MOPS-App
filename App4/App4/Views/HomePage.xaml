@@ -3,45 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App4.Views.HomePage">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" BackgroundColor="White">
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="100" />
-                </Grid.RowDefinitions>
-
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="100" />
-                </Grid.ColumnDefinitions>
-
-                <Label Grid.Row="0" Grid.Column="0"
-                       Grid.ColumnSpan="2"
-                       BackgroundColor="Black" />
-                
-                <Button Text="Menu" Grid.Row="0" Grid.Column="2"/>
-
-                <Label Text="this is motherhood" Grid.Row="1" Grid.Column="0"
-                       Grid.RowSpan="4"
-                       Grid.ColumnSpan="3"
-                       TextColor="white"
-                       BackgroundColor="MediumPurple"
-                       HorizontalTextAlignment="Center"
-                       VerticalTextAlignment="Center"
-                       FontSize="20"/>
-
-                <Label Text="-this month-" Grid.Row="11" Grid.Column="0"
-                       Grid.RowSpan="4"
-                       Grid.ColumnSpan="3"
-                       TextColor="Black"
-                       HorizontalTextAlignment="Center"
-                       VerticalTextAlignment="Center"
-                       FontSize="15"/>
-
-
-            </Grid>
-        </StackLayout>
+        <AbsoluteLayout BackgroundColor="Gray">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="mlogo.png" Aspect="Fill"/>
+                <BoxView Color="CornflowerBlue"
+                    WidthRequest="160"
+                    HeightRequest="160"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center" />
+            </StackLayout>
+        </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>
