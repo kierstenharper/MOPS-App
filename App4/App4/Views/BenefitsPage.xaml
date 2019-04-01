@@ -3,39 +3,50 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App4.Views.BenefitsPage">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="Gray">
-            <StackLayout Orientation="Horizontal">
-                <Image Source="mlogo.png" Aspect="Fill"/>
+        <StackLayout BackgroundColor="White">
+            <StackLayout Orientation="Horizontal" HeightRequest="70">
+                <Image Source="mlogo.png" WidthRequest="70" HorizontalOptions="Start" Margin="-5"/>
                 <Entry x:Name="Search" Text="{Binding Search}" Placeholder="Search"
-                           PlaceholderColor="Black" HeightRequest="50" WidthRequest="300"
-                           TextColor="Black" HorizontalOptions="Center"/>
-                <BoxView Color="Black" HorizontalOptions="EndAndExpand" />
+                           PlaceholderColor="Black" HeightRequest="50" WidthRequest="240"
+                           TextColor="Black" HorizontalOptions="Center" />
+                <Image Source="hamburgermenu.png" HorizontalOptions="CenterAndExpand" WidthRequest="40"/>
             </StackLayout>
-            <StackLayout Orientation="Vertical">
-                <Label Text="benefits" FontSize="25" HorizontalTextAlignment="Center"/>
-                <BoxView Color="White"
-                    WidthRequest="100"
-                    HeightRequest="100"
-                    VerticalOptions="Center"
-                    HorizontalOptions="Center"
-                    Margin="0,35,0,0"/>
-                <Label Text="Downloads" FontSize="20" HorizontalTextAlignment="Center"/>
+            <StackLayout Orientation="Vertical" Padding="10">
+                <Label Text="Benefits" FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" Margin="5"/>
+                
+                <Button x:Name="downloadsButton"
+                        BackgroundColor="White"
+                        BorderRadius="5"
+                        BorderWidth="2"
+                        BorderColor="Black"
+                        HorizontalOptions="Center"
+                        Margin="10"
+                        HeightRequest="100"
+                        WidthRequest="100"/>
+                <Label Text="Downloads" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="-15"/>
 
-                <BoxView Color="White"
-                    WidthRequest="100"
-                    HeightRequest="100"
-                    VerticalOptions="Center"
-                    HorizontalOptions="Center"
-                    Margin="0,35,0,0"/>
-                <Label Text="Membership Kit" FontSize="20" HorizontalTextAlignment="Center"/>
+                <Button x:Name="membershipKitButton"
+                        BackgroundColor="White"
+                        BorderRadius="5"
+                        BorderWidth="2"
+                        BorderColor="Black"
+                        HorizontalOptions="Center"
+                        Margin="10"
+                        HeightRequest="100"
+                        WidthRequest="100"/>
+                <Label Text="Membership Kit" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="-15"/>
 
-                <BoxView Color="White"
-                    WidthRequest="100"
-                    HeightRequest="100"
-                    VerticalOptions="Center"
-                    HorizontalOptions="Center"
-                    Margin="0,35,0,0"/>
-                <Label Text="Discounts" FontSize="20" HorizontalTextAlignment="Center"/>
+
+                <Button x:Name="discountsButton"
+                        BackgroundColor="White"
+                        BorderRadius="5"
+                        BorderWidth="2"
+                        BorderColor="Black"
+                        HorizontalOptions="Center"
+                        Margin="10"
+                        HeightRequest="100"
+                        WidthRequest="100"/>
+                <Label Text="Discounts" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="-15"/>
 
             </StackLayout>
         </StackLayout>
