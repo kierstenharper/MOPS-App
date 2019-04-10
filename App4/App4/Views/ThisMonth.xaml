@@ -13,8 +13,32 @@
             </StackLayout>
             <StackLayout Orientation="Vertical" Padding="10">
                 <Label Text="this month." FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" Margin="5"/>
-
-
+                <Label Text="the latest" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="0"/>
+                <Label Text="MOPS Theme 2019-20" FontSize="15" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="0"/>
+                <Label Text="Are you breathing just a little and calling it a life?* Sometimes we need the reminder that life is meant to be lived to the full. That it is OK to enjoy ourselves, to let our hair down, to worry less, and to really suck the marrow out of life (who even says that? I guess we do now.) Because as far as we can tell, this is exactly how God intended for us to live - fully and abundantly." FontSize="12" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="0"/>
+                <Label Text="(* From the poem, Have You Ever Tried to Enter the Long Black Branches?, by Mary Oliver)" FontSize="10" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="0"/>
+                <Label Text="podcast" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="0"/>
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Story Time and More With Mandy" FontSize="15" HorizontalTextAlignment="Start" TextColor="Black"/>
+                        <Label Text="Listen to Mandy read the first chapter of Have More Fun and share some behind-the-scenes stories about some friends featured in the theme video." FontSize="12" HorizontalTextAlignment="Start" TextColor="Black"/>
+                    </StackLayout>
+                    <Image Source="podcast.jpg" WidthRequest="180" HorizontalOptions="End" Margin="0"/>
+                </StackLayout>
+                <Button x:Name="podcastButton"
+                        BackgroundColor="#3B3B3C"
+                        BorderRadius="5"
+                        BorderWidth="0"
+                        BorderColor="Black"
+                        TextColor="White"
+                        HorizontalOptions="Center"
+                        Margin="5"
+                        TranslationX="0"
+                        HeightRequest="40"
+                        WidthRequest="200">
+                GET THE PODCAST
+                </Button>
+                <Label Text="more" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="0"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

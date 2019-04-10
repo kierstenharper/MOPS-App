@@ -13,7 +13,37 @@
             </StackLayout>
             <StackLayout Orientation="Vertical" Padding="10">
                 <Label Text="videos." FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" Margin="5"/>
-
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="ALL" FontSize="15" HorizontalTextAlignment="Center" TextColor="Black" Margin="5" TranslationX="10"/>
+                    <Label Text="EMPOWERMENT" FontSize="15" HorizontalTextAlignment="Center" TextColor="Black" Margin="5" TranslationX="20"/>
+                    <Label Text="FAITH" FontSize="15" HorizontalTextAlignment="Center" TextColor="Black" Margin="5" TranslationX="40"/>
+                    <Label Text="LOVE" FontSize="15" HorizontalTextAlignment="Center" TextColor="Black" Margin="5" TranslationX="60"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="MOMCON 2018" FontSize="15" HorizontalTextAlignment="Center" TextColor="Black" Margin="5" TranslationX="10"/>
+                    <Label Text="PARENTING" FontSize="15" HorizontalTextAlignment="Center" TextColor="Black" Margin="5" TranslationX="20"/>
+                    <Label Text="WELLNESS" FontSize="15" HorizontalTextAlignment="Center" TextColor="Black" Margin="5" TranslationX="30"/>
+                </StackLayout>
+                <Button x:Name="video1"
+                        BackgroundColor="White"
+                        BorderRadius="5"
+                        BorderWidth="2"
+                        BorderColor="Black"
+                        HorizontalOptions="Center"
+                        Margin="30"
+                        HeightRequest="150"
+                        WidthRequest="300"/>
+                <Label Text="TO THE FULL-curriculum video" FontSize="15" HorizontalTextAlignment="Center" TextColor="Black" Margin="-30"/>
+                <Button x:Name="video2"
+                        BackgroundColor="White"
+                        BorderRadius="5"
+                        BorderWidth="2"
+                        BorderColor="Black"
+                        HorizontalOptions="Center"
+                        Margin="50"
+                        HeightRequest="150"
+                        WidthRequest="300"/>
+                <Label Text="TO THE FULL-theme video" FontSize="15" HorizontalTextAlignment="Center" TextColor="Black" Margin="-50"/>
 
             </StackLayout>
         </StackLayout>

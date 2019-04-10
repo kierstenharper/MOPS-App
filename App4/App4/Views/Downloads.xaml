@@ -13,7 +13,59 @@
             </StackLayout>
             <StackLayout Orientation="Vertical" Padding="10">
                 <Label Text="downloads." FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" Margin="5"/>
-                    
+                <Label Text="Resources" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="25"/>
+                <Button x:Name="resourcesButton"
+                        BackgroundColor="White"
+                        BorderRadius="5"
+                        BorderWidth="2"
+                        BorderColor="Black"
+                        HorizontalOptions="Center"
+                        Margin="30"
+                        HeightRequest="200"
+                        WidthRequest="150"/>
+                <Label Text="Lock Screens" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="0"/>
+                <StackLayout Orientation="Horizontal">
+                    <Button x:Name="lockScreen1"
+                        BackgroundColor="White"
+                        BorderRadius="5"
+                        BorderWidth="2"
+                        BorderColor="Black"
+                        HorizontalOptions="Start"
+                        Margin="10"
+                        TranslationX="20"
+                        HeightRequest="125"
+                        WidthRequest="80"/>
+                    <Button x:Name="lockScreen2"
+                        BackgroundColor="White"
+                        BorderRadius="5"
+                        BorderWidth="2"
+                        BorderColor="Black"
+                        HorizontalOptions="Center"
+                        Margin="10"
+                        TranslationX="20"
+                        HeightRequest="125"
+                        WidthRequest="80"/>
+                    <Button x:Name="lockScreen3"
+                        BackgroundColor="White"
+                        BorderRadius="5"
+                        BorderWidth="2"
+                        BorderColor="Black"
+                        HorizontalOptions="Start"
+                        Margin="10"
+                        TranslationX="20"
+                        HeightRequest="125"
+                        WidthRequest="80"/>
+                </StackLayout>
+                <Button x:Name="backButton"
+                        BackgroundColor="White"
+                        BorderRadius="5"
+                        BorderWidth="2"
+                        BorderColor="Black"
+                        HorizontalOptions="Start"
+                        Margin="0"
+                        TranslationX="0"
+                        HeightRequest="40"
+                        WidthRequest="40"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
