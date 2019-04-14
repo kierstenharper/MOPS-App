@@ -159,4 +159,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\lockScreen3.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\membership_kit.jpg" />
+  </ItemGroup>
 </Project>
