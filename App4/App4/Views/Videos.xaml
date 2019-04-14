@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App4.Views.Videos">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout BackgroundColor="White">
             <StackLayout Orientation="Horizontal" HeightRequest="70">
                 <Image Source="mlogo.png" WidthRequest="70" HorizontalOptions="Start" Margin="-5"/>
@@ -47,5 +48,6 @@
 
             </StackLayout>
         </StackLayout>
+      </ScrollView>
     </ContentPage.Content>
 </ContentPage>

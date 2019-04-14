@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App4.Views.LoginPageEmail">
     <ContentPage.Content>
-
-        <StackLayout Orientation="Vertical" Padding="30" Spacing="40" BackgroundColor="#936E72">
+        <ScrollView>
+            <StackLayout Orientation="Vertical" Padding="30" Spacing="40" BackgroundColor="#936E72">
             <BoxView HeightRequest="10"/>
             <Frame BackgroundColor="#D7C5C4" HasShadow="False">
                 <StackLayout Orientation="Vertical" Spacing="10">
@@ -38,5 +38,6 @@
                     HorizontalOptions="FillAndExpand"
                     BackgroundColor="#936E72" />
         </StackLayout>
+       </ScrollView>
     </ContentPage.Content>
 </ContentPage>

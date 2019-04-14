@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App4.Views.ThisMonth">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout BackgroundColor="White">
             <StackLayout Orientation="Horizontal" HeightRequest="70">
                 <Image Source="mlogo.png" WidthRequest="70" HorizontalOptions="Start" Margin="-5"/>
@@ -41,5 +42,6 @@
                 <Label Text="more" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="0"/>
             </StackLayout>
         </StackLayout>
+       </ScrollView>
     </ContentPage.Content>
 </ContentPage>
