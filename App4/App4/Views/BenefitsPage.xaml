@@ -9,8 +9,7 @@
                 <Entry x:Name="Search" Text="{Binding Search}" Placeholder="Search"
                            PlaceholderColor="Black" HeightRequest="50" WidthRequest="240"
                            TextColor="Black" HorizontalOptions="Center" />
-                <ImageButton Source="hamburgermenu.png" HorizontalOptions="CenterAndExpand" WidthRequest="40"
-                             Clicked="OnHamburgerMenuClicked"/>
+                <ImageButton Source="hamburgermenu.png" HorizontalOptions="CenterAndExpand" WidthRequest="40"/>
             </StackLayout>
             <StackLayout Orientation="Vertical" Padding="10">
                 <Label Text="Benefits" FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" Margin="5"/>
