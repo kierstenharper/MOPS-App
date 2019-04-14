@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App4.Views.Discounts">
     <ContentPage.Content>
+       <ScrollView>
         <StackLayout BackgroundColor="White">
             <StackLayout Orientation="Horizontal" HeightRequest="70">
                 <Image Source="mlogo.png" WidthRequest="70" HorizontalOptions="Start" Margin="-5"/>
@@ -12,10 +13,42 @@
                 <Image Source="hamburgermenu.png" HorizontalOptions="CenterAndExpand" WidthRequest="40"/>
             </StackLayout>
             <StackLayout Orientation="Vertical" Padding="10">
-                <Label Text="Discounts" FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" Margin="5"/>
+              
+                <?label for page title?>
+                    <Label Text="discounts." FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" Margin="4"/>
 
-               
-            </StackLayout>
+                <?label for first discount option (the descriptive values can be hard coded for when the text is pulled from website?>
+                    <Label Text="Colorado Christian University 30% Tuition Discount" FontSize="20" HorizontalTextAlignment="Center" TextColor= "#936E72" Margin="5" TranslationY="20"/>
+                
+                <?image for CCU?>
+                    <Image Source="coloradoChristianUniversity" HorizontalOptions="CenterAndExpand" WidthRequest="240" Margin="10"/>
+
+                <?label for second discount option (again descriptive values can be kept hard coded?>
+                    <Label Text="Kilyn's Kitchen 10% OFF with Promo Code" FontSize="20" HorizontalTextAlignment="Center" TextColor= "#936E72" Margin="5" TranslationY="20"/>
+
+                <?image for Kilyn's Kitchen?>
+                    <Image Source="kKitchen" HorizontalOptions="CenterAndExpand" WidthRequest="240" Margin="10"/>
+                
+                <?label for Urbansiter?>
+                    <Label Text="Urbansitter 75% OFF with Promo Code" FontSize="20" HorizontalTextAlignment="Center" TextColor= "#936E72" Margin="5" TranslationY="20"/>
+                
+                <?image for urbansitter?>
+                    <Image Source="urbansitter" HorizontalOptions="CenterAndExpand" WidthRequest="240" Margin="10"/>
+                
+                <?label for paddle tales?>
+                    <Label Text="Paddle Tales 25% OFF with Promo Code" FontSize="20" HorizontalTextAlignment="Center" TextColor= "#936E72" Margin="5" TranslationY="20"/>
+
+                <?image for paddle tales?>
+                    <Image Source="paddleTales" HorizontalOptions="CenterAndExpand" WidthRequest="240" Margin="10"/>
+                
+                <?label for Komae?>
+                    <Label Text="Komae 50% OFF with Promo Code" FontSize="20" HorizontalTextAlignment="Center" TextColor= "#936E72" Margin="5" TranslationY="20"/>
+                
+                <?image for Komae?>
+                    <Image Source="Komae" HorizontalOptions="CenterAndExpand" WidthRequest="240" Margin="10"/>
+
+                </StackLayout>
         </StackLayout>
+       </ScrollView>
     </ContentPage.Content>
 </ContentPage>
