@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App4.Views.Collectives">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="White">
+        <ScrollView>
+            <StackLayout BackgroundColor="White">
             <StackLayout Orientation="Horizontal" HeightRequest="70">
                 <Image Source="mlogo.png" WidthRequest="70" HorizontalOptions="Start" Margin="-5"/>
                 <Entry x:Name="Search" Text="{Binding Search}" Placeholder="Search"
@@ -24,6 +25,7 @@
                 
 
             </StackLayout>
-        </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
