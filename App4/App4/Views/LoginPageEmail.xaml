@@ -3,19 +3,40 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App4.Views.LoginPageEmail">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" Padding="30" Spacing="40" BackgroundColor="White">
+
+        <StackLayout Orientation="Vertical" Padding="30" Spacing="40" BackgroundColor="#936E72">
             <BoxView HeightRequest="10"/>
-            <Frame BackgroundColor="LightGray" HasShadow="False">
+            <Frame BackgroundColor="#D7C5C4" HasShadow="False">
                 <StackLayout Orientation="Vertical" Spacing="10">
-                    <Entry x:Name="Email" Text="{Binding Email}" Placeholder="Email"
-                           PlaceholderColor="Black" HeightRequest="50"
+                    <Image 
+                        Source="C:\Users\s780963\Source\Repos\MOPS-App\App4\App4.Android\Resources\drawable\mopslogo.png"
+                        HeightRequest="20">
+                    </Image>
+                    <Entry x:Name="Email"
+                           Text="{Binding Email}"
+                           Placeholder="Enter MOPS Email"
+                           PlaceholderColor="Black"
+                           HeightRequest="50"
                            Keyboard="Email"
+                           HorizontalTextAlignment="Center"
+                           TextColor="Black"/>
+                    <Entry x:Name="Password"
+                           Text="{Binding Password}"
+                           Placeholder="Enter MOPS Password"
+                           PlaceholderColor="Black"
+                           HeightRequest="50"   
+                           IsPassword="True"  
+                           HorizontalTextAlignment="Center"
                            TextColor="Black"/>
                 </StackLayout>
             </Frame>
-            <Button Command="{Binding SubmitCommand}" Text="Submit" TextColor="Black"
-                    FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"
-                    BackgroundColor="LightGray" />
+            <Button Command="{Binding SubmitCommand}"
+                    Text="Login"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    HorizontalOptions="FillAndExpand"
+                    BackgroundColor="#936E72" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
