@@ -16,5 +16,20 @@ namespace App4.Views
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private async void DownloadsButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new Downloads());
+        }
+
+        private async void MembershipButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new MembershipKit());
+        }
+
+        private async void DiscountsButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new Discounts());
+        }
+    }
 }

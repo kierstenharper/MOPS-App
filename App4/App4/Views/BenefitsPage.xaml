@@ -22,7 +22,8 @@
                         HorizontalOptions="Center"
                         Margin="10"
                         HeightRequest="100"
-                        WidthRequest="100"/>
+                        WidthRequest="100"
+                        Clicked="DownloadsButtonClicked"/>
                 <Label Text="Downloads" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="-15"/>
 
                 <Button x:Name="membershipKitButton"
@@ -33,7 +34,8 @@
                         HorizontalOptions="Center"
                         Margin="10"
                         HeightRequest="100"
-                        WidthRequest="100"/>
+                        WidthRequest="100"
+                        Clicked="MembershipButtonClicked"/>
                 <Label Text="Membership Kit" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="-15"/>
 
 
@@ -45,7 +47,8 @@
                         HorizontalOptions="Center"
                         Margin="10"
                         HeightRequest="100"
-                        WidthRequest="100"/>
+                        WidthRequest="100"
+                        Clicked="DiscountsButtonClicked"/>
                 <Label Text="Discounts" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="-15"/>
 
             </StackLayout>
