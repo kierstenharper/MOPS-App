@@ -10,7 +10,13 @@
                 <Entry x:Name="Search" Text="{Binding Search}" Placeholder="Search"
                            PlaceholderColor="Black" HeightRequest="50" WidthRequest="240"
                            TextColor="Black" HorizontalOptions="Center" />
-                <ImageButton Source="hamburgermenu.png" HorizontalOptions="CenterAndExpand" WidthRequest="40"/>
+                    <Image Source="hamburgermenu.png" HorizontalOptions="CenterAndExpand" WidthRequest="40">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Tapped="OnHamburgerMenuGestureTap"
+                                NumberOfTapsRequired="1"/>
+                        </Image.GestureRecognizers>
+                    </Image>
             </StackLayout>
             <StackLayout Orientation="Vertical" Padding="10">
                 <Label Text="Benefits" FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" Margin="5"/>
@@ -24,7 +30,7 @@
                         Margin="10"
                         HeightRequest="100"
                         WidthRequest="100"
-                        Clicked="DownloadsButtonClicked"/>
+                        Clicked="DownloadsButtonTapped"/>
                 <Label Text="Downloads" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="-15"/>
 
                 <Button x:Name="membershipKitButton"
@@ -36,7 +42,7 @@
                         Margin="10"
                         HeightRequest="100"
                         WidthRequest="100"
-                        Clicked="MembershipButtonClicked"/>
+                        Clicked="MembershipButtonTapped"/>
                 <Label Text="Membership Kit" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="-15"/>
 
 
@@ -49,7 +55,7 @@
                         Margin="10"
                         HeightRequest="100"
                         WidthRequest="100"
-                        Clicked="DiscountsButtonClicked"/>
+                        Clicked="DiscountsButtonTapped"/>
                 <Label Text="Discounts" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="-15"/>
 
             </StackLayout>

@@ -17,19 +17,29 @@ namespace App4.Views
 			InitializeComponent ();
 		}
 
-        private async void DownloadsButtonClicked(object sender, EventArgs e)
+        //Function called when downloads button is tapped.
+        private async void DownloadsButtonTapped(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new Downloads());
         }
 
-        private async void MembershipButtonClicked(object sender, EventArgs e)
+        //Function called when membership button is tapped.
+        private async void MembershipButtonTapped(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new MembershipKit());
         }
 
-        private async void DiscountsButtonClicked(object sender, EventArgs e)
+        //Function called when discounts is tapped.
+        private async void DiscountsButtonTapped(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new Discounts());
+        }
+
+        //Function called when hamburgermenu is tapped.
+        private async void OnHamburgerMenuGestureTap(object sender, EventArgs args)
+        {
+            //temp code until I get some sort of dropdown working
+            await Navigation.PushModalAsync(new Downloads());
         }
     }
 }
