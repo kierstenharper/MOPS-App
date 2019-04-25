@@ -8,14 +8,14 @@
             <StackLayout Orientation="Horizontal" HeightRequest="70">
                 <Image Source="mlogo.png" WidthRequest="70" HorizontalOptions="Start" Margin="-5"/>
                 <Entry x:Name="Search" Text="{Binding Search}" Placeholder="Search"
-                           PlaceholderColor="Black" HeightRequest="50" WidthRequest="240"
-                           TextColor="Black" HorizontalOptions="Center" />
+                           PlaceholderColor="#3B3B3C" HeightRequest="50" WidthRequest="240"
+                           TextColor="#3B3B3C" HorizontalOptions="Center" />
                 <Image Source="hamburgermenu.png" HorizontalOptions="CenterAndExpand" WidthRequest="40"/>
             </StackLayout>
             <StackLayout Orientation="Vertical" Padding="10">
-                <Label Text="membership kit." FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" Margin="5"/>
+                    <Label Text="membership kit." FontSize="25" HorizontalTextAlignment="Center" TextColor="#3B3B3C" Margin="5"/>
                 <Image Source="membership_kit.jpg" WidthRequest="300" HorizontalOptions="Center" Margin="0"/>
-                <Label Text="One of the first ways we welcome you into the year is with our membership kit. While you wait for yours to come in the mail or you just want more of everything, we offer pdf downloads which includes a print for you home or office, a lullaby CD from JJ Heller, and other tidbits of encouragement to  usher in an incredible year ahead. (It matches our annual theme)! Click below to download each piece made just for you." FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" TranslationY="25"/>
+                    <Label Text="One of the first ways we welcome you into the year is with our membership kit. While you wait for yours to come in the mail or you just want more of everything, we offer pdf downloads which includes a print for you home or office, a lullaby CD from JJ Heller, and other tidbits of encouragement to  usher in an incredible year ahead. (It matches our annual theme)! Click below to download each piece made just for you." FontSize="20" HorizontalTextAlignment="Center" TextColor="#3B3B3C" TranslationY="25"/>
                 <Label Text="Welcome Letter" FontSize="20" HorizontalTextAlignment="Center" TextColor="#936E72" TranslationY="50"/>
                 <Label Text="Theme Print / Tema Imprimibles" FontSize="20" HorizontalTextAlignment="Center" TextColor="#936E72" TranslationY="60"/>
                 <Label Text="Challenge Booklet / Libro De Retos" FontSize="20" HorizontalTextAlignment="Center" TextColor="#936E72" TranslationY="70"/>
@@ -25,7 +25,7 @@
                         BackgroundColor="White"
                         BorderRadius="5"
                         BorderWidth="2"
-                        BorderColor="Black"
+                        BorderColor="#3B3B3C"
                         HorizontalOptions="Start"
                         Margin="0"
                         TranslationX="0"

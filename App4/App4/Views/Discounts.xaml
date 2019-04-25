@@ -8,14 +8,14 @@
             <StackLayout Orientation="Horizontal" HeightRequest="70">
                 <Image Source="mlogo.png" WidthRequest="70" HorizontalOptions="Start" Margin="-5"/>
                 <Entry x:Name="Search" Text="{Binding Search}" Placeholder="Search"
-                           PlaceholderColor="Black" HeightRequest="50" WidthRequest="240"
-                           TextColor="Black" HorizontalOptions="Center" />
+                           PlaceholderColor="#3B3B3C" HeightRequest="50" WidthRequest="240"
+                           TextColor="#3B3B3C" HorizontalOptions="Center" />
                 <Image Source="hamburgermenu.png" HorizontalOptions="CenterAndExpand" WidthRequest="40"/>
             </StackLayout>
             <StackLayout Orientation="Vertical" Padding="10">
               
                 <?label for page title?>
-                    <Label Text="discounts." FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" Margin="4"/>
+                    <Label Text="discounts." FontSize="25" HorizontalTextAlignment="Center" TextColor="#3B3B3C" Margin="4"/>
 
                 <?label for first discount option (the descriptive values can be hard coded for when the text is pulled from website?>
                     <Label Text="Colorado Christian University 30% Tuition Discount" FontSize="20" HorizontalTextAlignment="Center" TextColor= "#936E72" Margin="5" TranslationY="20"/>

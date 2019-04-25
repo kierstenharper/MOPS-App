@@ -8,19 +8,19 @@
             <StackLayout Orientation="Horizontal" HeightRequest="70">
                 <Image Source="mlogo.png" WidthRequest="70" HorizontalOptions="Start" Margin="-5"/>
                 <Entry x:Name="Search" Text="{Binding Search}" Placeholder="Search"
-                           PlaceholderColor="Black" HeightRequest="50" WidthRequest="240"
-                           TextColor="Black" HorizontalOptions="Center" />
+                           PlaceholderColor="#3B3B3C" HeightRequest="50" WidthRequest="240"
+                           TextColor="#3B3B3C" HorizontalOptions="Center" />
                 <Image Source="hamburgermenu.png" HorizontalOptions="CenterAndExpand" WidthRequest="40"/>
             </StackLayout>
             <StackLayout Orientation="Vertical" Padding="10">
-                <Label Text="collectives." FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" Margin="5"/>
+                    <Label Text="collectives." FontSize="25" HorizontalTextAlignment="Center" TextColor="#3B3B3C" Margin="5"/>
 
                 <?label for the explanation of collectives?>
-                <Label Text="what are collectives" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" Margin="5"/>
+                    <Label Text="what are collectives" FontSize="20" HorizontalTextAlignment="Center" TextColor="#3B3B3C" Margin="5"/>
 
-                <Label Text="Collectives are short, topic-based gatherings. Your Collective will typically meet once a week for six to eight weeks to work through a small-but-mighty participant guide that focuses on growth and discovery within a single topic. MOPS Members can download the Participant Guide for free, but we recommend each group purchases the Facilitator Guide, which offers keen insight into creating a safe and loving space. Gather a few friends and explore our Collectives, and check back soon for more!" FontSize="15" HorizontalTextAlignment="Center" TextColor="Black" Margin="5"/>
+                    <Label Text="Collectives are short, topic-based gatherings. Your Collective will typically meet once a week for six to eight weeks to work through a small-but-mighty participant guide that focuses on growth and discovery within a single topic. MOPS Members can download the Participant Guide for free, but we recommend each group purchases the Facilitator Guide, which offers keen insight into creating a safe and loving space. Gather a few friends and explore our Collectives, and check back soon for more!" FontSize="15" HorizontalTextAlignment="Center" TextColor="#3B3B3C" Margin="5"/>
 
-                <Label Text="your collectives" FontSize="20" HorizontalTextAlignment="Center" TextColor="Black" Margin="5"/>
+                    <Label Text="your collectives" FontSize="20" HorizontalTextAlignment="Center" TextColor="#3B3B3C" Margin="5"/>
                 
                 
 

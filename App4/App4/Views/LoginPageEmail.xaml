@@ -15,28 +15,28 @@
                         <Entry x:Name="Email"
                            Text="{Binding Email}"
                            Placeholder="Enter MOPS Email"
-                           PlaceholderColor="Black"
+                           PlaceholderColor="#3B3B3C"
                            HeightRequest="50"
                            Keyboard="Email"
                            HorizontalTextAlignment="Center"
-                           TextColor="Black"/>
+                           TextColor="#3B3B3C"/>
                     </Frame>
                     <Frame BackgroundColor="#D7C5C4" Padding="1">
                         <Entry x:Name="Password"
                            Text="{Binding Password}"
                            Placeholder="Enter MOPS Password"
-                           PlaceholderColor="Black"
+                           PlaceholderColor="#3B3B3C"
                            HeightRequest="50"   
                            IsPassword="True"  
                            HorizontalTextAlignment="Center"
-                           TextColor="Black"/>
+                           TextColor="#3B3B3C"/>
                     </Frame>
                 </StackLayout>
             </Frame>
             <Frame BackgroundColor="#936E72">
                 <Button Command="{Binding SubmitCommand}"
                     Text="Login"
-                    TextColor="Black"
+                    TextColor="#3B3B3C"
                     FontAttributes="Bold"
                     FontSize="Large"
                     HorizontalOptions="FillAndExpand"/>

@@ -8,12 +8,12 @@
                 <StackLayout Orientation="Horizontal" HeightRequest="70">
                     <Image Source="mlogo.png" WidthRequest="70" HorizontalOptions="Start" Margin="-5"/>
                     <Entry x:Name="Search" Text="{Binding Search}" Placeholder="Search"
-                           PlaceholderColor="Black" HeightRequest="50" WidthRequest="240"
-                           TextColor="Black" HorizontalOptions="Center" />
+                           PlaceholderColor="#3B3B3C" HeightRequest="50" WidthRequest="240"
+                           TextColor="#3B3B3C" HorizontalOptions="Center" />
                     <Image Source="hamburgermenu.png" HorizontalOptions="CenterAndExpand" WidthRequest="40"/>
                 </StackLayout>
                 <StackLayout Orientation="Vertical" Padding="10">
-                    <Label Text="membership kit." FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" Margin="5"/>
+                    <Label Text="this is motherhood" FontSize="25" HorizontalTextAlignment="Center" TextColor="#3B3B3C" Margin="5"/>
                 </StackLayout>
             </StackLayout>
         </ScrollView>
