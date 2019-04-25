@@ -4,15 +4,18 @@
              x:Class="App4.Views.HomePage">
     <ContentPage.Content>
         <ScrollView>
-        <AbsoluteLayout BackgroundColor="White">
-            <StackLayout Orientation="Horizontal" HeightRequest="70">
-                <Image Source="mlogo.png" WidthRequest="70" HorizontalOptions="Start" Margin="-5"/>
-                <Entry x:Name="Search" Text="{Binding Search}" Placeholder="Search"
+            <StackLayout BackgroundColor="#EFE9E0">
+                <StackLayout Orientation="Horizontal" HeightRequest="70">
+                    <Image Source="mlogo.png" WidthRequest="70" HorizontalOptions="Start" Margin="-5"/>
+                    <Entry x:Name="Search" Text="{Binding Search}" Placeholder="Search"
                            PlaceholderColor="Black" HeightRequest="50" WidthRequest="240"
                            TextColor="Black" HorizontalOptions="Center" />
-                <Image Source="hamburgermenu.png" HorizontalOptions="CenterAndExpand" WidthRequest="40"/>
+                    <Image Source="hamburgermenu.png" HorizontalOptions="CenterAndExpand" WidthRequest="40"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Padding="10">
+                    <Label Text="membership kit." FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" Margin="5"/>
+                </StackLayout>
             </StackLayout>
-        </AbsoluteLayout>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
