@@ -14,6 +14,12 @@
                 </StackLayout>
                 <StackLayout Orientation="Vertical" Padding="10">
                     <Label Text="this is motherhood" FontSize="25" HorizontalTextAlignment="Center" TextColor="#3B3B3C" Margin="5"/>
+                    <Label Text="this month" FontSize="20" HorizontalTextAlignment="Center" TextColor="#3B3B3C" TranslationY="0"/>
+                    <Label Text="to the full" FontSize="30" HorizontalTextAlignment="Center" TextColor="#3B3B3C" TranslationY="0"/>
+                    <Label Text="The thief comes only to steal and kill and destroy; I have come that they may have life, and have it TO THE FULL. -John 10:10 (NIV)" FontSize="15" FontAttributes="Italic" HorizontalTextAlignment="Center" TextColor="#3B3B3C" TranslationY="0"/>
+                    <Label Text="In order to live To the Full this year, we're going to Have More Fun and remember what it feels like to enjoy ourselves; Fear Less and make this the year of faith over fear and abundance over scarcity; and Find Our People because life to the full happens best with people by our side." FontSize="15" HorizontalTextAlignment="Center" TextColor="#3B3B3C" TranslationY="0"/>
+                    <Label Text="Ready to jump in?" FontSize="15" HorizontalTextAlignment="Center" TextColor="#936E72" TranslationY="0"/>
+                    <Label Text="collectives" FontSize="20" HorizontalTextAlignment="Center" TextColor="#936E72" TranslationY="0"/>
                 </StackLayout>
             </StackLayout>
         </ScrollView>
