@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using App4.Views;
+using System.Net;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace App4
@@ -14,7 +15,7 @@ namespace App4
             InitializeComponent();
 
 
-            MainPage = new LoginPageEmail();
+            MainPage = new Discounts();
         }
 
         protected override void OnStart()
