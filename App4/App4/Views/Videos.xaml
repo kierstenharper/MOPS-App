@@ -32,8 +32,9 @@
                         BorderColor="#3B3B3C"
                         HorizontalOptions="Center"
                         Margin="30"
-                        HeightRequest="150"
-                        WidthRequest="300"/>
+                        HeightRequest="191"
+                        WidthRequest="250"
+                        Image="mopsvideo1.png"/>
                     <Label Text="TO THE FULL-curriculum video" FontSize="15" HorizontalTextAlignment="Center" TextColor="#3B3B3C" Margin="-30"/>
                 <Button x:Name="video2"
                         BackgroundColor="White"
@@ -42,8 +43,9 @@
                         BorderColor="#3B3B3C"
                         HorizontalOptions="Center"
                         Margin="50"
-                        HeightRequest="150"
-                        WidthRequest="300"/>
+                        HeightRequest="191"
+                        WidthRequest="300"
+                        Image="mopsvideo2.png"/>
                     <Label Text="TO THE FULL-theme video" FontSize="15" HorizontalTextAlignment="Center" TextColor="#3B3B3C" Margin="-50"/>
 
             </StackLayout>
