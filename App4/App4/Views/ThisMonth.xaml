@@ -10,7 +10,13 @@
                 <Entry x:Name="Search" Text="{Binding Search}" Placeholder="Search"
                            PlaceholderColor="#3B3B3C" HeightRequest="50" WidthRequest="240"
                            TextColor="#3B3B3C" HorizontalOptions="Center" />
-                <Image Source="hamburgermenu.png" HorizontalOptions="CenterAndExpand" WidthRequest="40"/>
+                    <Image Source="hamburgermenu.png" HorizontalOptions="CenterAndExpand" WidthRequest="40">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                            Tapped="OnHamburgerMenuGestureTap"
+                            NumberOfTapsRequired="1"/>
+                        </Image.GestureRecognizers>
+                    </Image>
             </StackLayout>
             <StackLayout Orientation="Vertical" Padding="10">
                     <Label Text="this month." FontSize="25" HorizontalTextAlignment="Center" TextColor="#3B3B3C" Margin="5"/>
@@ -36,8 +42,9 @@
                         Margin="5"
                         TranslationX="0"
                         HeightRequest="40"
-                        WidthRequest="200">
-                GET THE PODCAST
+                        WidthRequest="200"
+                        Text="Get the Podcast">
+                        
                 </Button>
                     <Label Text="more" FontSize="20" HorizontalTextAlignment="Center" TextColor="#3B3B3C" TranslationY="0"/>
             </StackLayout>
