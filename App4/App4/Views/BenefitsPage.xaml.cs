@@ -39,7 +39,7 @@ namespace App4.Views
         private async void OnHamburgerMenuGestureTap(object sender, EventArgs args)
         {
             //temp code until I get some sort of dropdown working
-            await Navigation.PushModalAsync(new Downloads());
+            await Navigation.PushModalAsync(new Collectives());
         }
     }
 }

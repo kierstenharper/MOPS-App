@@ -19,7 +19,7 @@
                 </Image>
             </StackLayout>
             <StackLayout Orientation="Vertical" Padding="10">
-                    <Label Text="Benefits" FontSize="25" HorizontalTextAlignment="Center" TextColor="#3B3B3C" Margin="5"/>
+                    <Label Text="benefits." FontSize="25" HorizontalTextAlignment="Center" TextColor="#3B3B3C" Margin="5"/>
                 
                 <Button x:Name="downloadsButton"
                         BackgroundColor="White"
