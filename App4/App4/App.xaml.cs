@@ -14,7 +14,7 @@ namespace App4
         {
             InitializeComponent();
 
-            MainPage = new HomePage();
+            MainPage = new LoginPageEmail();
         }
 
         protected override void OnStart()
