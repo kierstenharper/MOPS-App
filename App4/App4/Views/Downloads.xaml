@@ -25,7 +25,7 @@
                         HeightRequest="200"
                         WidthRequest="150"/>
                     <Label Text="Lock Screens" FontSize="20" HorizontalTextAlignment="Center" TextColor="#3B3B3C" TranslationY="0"/>
-                <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Button x:Name="lockScreen1"
                         BackgroundColor="White"
                         BorderRadius="5"
@@ -33,7 +33,6 @@
                         BorderColor="#3B3B3C"
                         HorizontalOptions="Start"
                         Margin="10"
-                        TranslationX="20"
                         HeightRequest="125"
                         WidthRequest="80"/>
                     <Button x:Name="lockScreen2"
@@ -43,7 +42,6 @@
                         BorderColor="#3B3B3C"
                         HorizontalOptions="Center"
                         Margin="10"
-                        TranslationX="20"
                         HeightRequest="125"
                         WidthRequest="80"/>
                     <Button x:Name="lockScreen3"
@@ -53,7 +51,6 @@
                         BorderColor="#3B3B3C"
                         HorizontalOptions="Start"
                         Margin="10"
-                        TranslationX="20"
                         HeightRequest="125"
                         WidthRequest="80"/>
                 </StackLayout>

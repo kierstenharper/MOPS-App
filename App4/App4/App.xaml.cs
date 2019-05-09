@@ -14,8 +14,7 @@ namespace App4
         {
             InitializeComponent();
 
-
-            MainPage = new Discounts();
+            MainPage = new HomePage();
         }
 
         protected override void OnStart()

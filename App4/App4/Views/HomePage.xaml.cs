@@ -16,5 +16,12 @@ namespace App4.Views
 		{
 			InitializeComponent ();
 		}
-	}
+
+        //Function called when hamburgermenu is tapped.
+        private async void OnHamburgerMenuGestureTap(object sender, EventArgs args)
+        {
+            //temp code until I get some sort of dropdown working
+            await Navigation.PushModalAsync(new ThisMonth());
+        }
+    }
 }
